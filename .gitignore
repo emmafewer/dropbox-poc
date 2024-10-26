@@ -1,0 +1,22 @@
+/Downloader.sln
+# file extensions to ignore
+*.bak
+*.iml
+*.user
+# directories to ignore
+.vs/
+.vscode/
+_ReSharper.Caches/
+bin/
+obj/
+packages/
+
+# local appsettings in any directory should be ignored
+Server.appsettings.Development.json
+Server.appsettings.json
+
+.idea
+.env
+
+.DS_Store
+/Downloader/Server/Properties/launchSettings.json

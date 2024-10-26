@@ -19,3 +19,4 @@
 /Users/emmafewer/RiderProjects/DropboxPoc/Client/obj/Debug/net8.0/Client.pdb
 /Users/emmafewer/RiderProjects/DropboxPoc/Client/obj/Debug/net8.0/Client.genruntimeconfig.cache
 /Users/emmafewer/RiderProjects/DropboxPoc/Client/obj/Debug/net8.0/ref/Client.dll
+/Users/emmafewer/RiderProjects/DropboxPoc/Client/obj/Debug/net8.0/Client.sourcelink.json
