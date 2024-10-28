@@ -7,11 +7,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\download.proto" GrpcServices="Server" />
+        <Protobuf Include="Protos\upload.proto" GrpcServices="Server" />
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="DotNetEnv" Version="3.1.1" />
         <PackageReference Include="Grpc.AspNetCore" Version="2.57.0"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0-rc.2.24473.5" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0-rc.2.24473.5" />
+        <PackageReference Include="Npgsql" Version="8.0.5" />
     </ItemGroup>
 
 </Project>

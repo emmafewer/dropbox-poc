@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\download.proto" GrpcServices="Client" />
+        <Protobuf Include="Protos\upload.proto" GrpcServices="Client" />
     </ItemGroup>
 
     <ItemGroup>

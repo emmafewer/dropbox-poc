@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option csharp_namespace = "Server";
+
+package upload;
+
+service Uploader {
+  rpc UploadFile (stream UploadFileRequest) returns (stream UploadFileResponse);
+  rpc Subscribe(SubscribeRequest) returns (stream NotificationResponse);
+  rpc GetLatestFiles(GetLatestFilesRequest) returns (stream FileResponse);
+}
+
+message UploadFileRequest {
+  FileMetadata metadata = 1;
+  bytes data = 2;
+}
+
+message UploadFileResponse {
+  string id = 1;
+}
+
+message FileMetadata {
+  string file_name = 1;
+}
+
+message SubscribeRequest {
+  string client_id = 1;
+}
+
+message NotificationResponse {
+  string message = 1;
+}
+
+message GetLatestFilesRequest {}
+
+message FileResponse {
+  string file_name = 1;
+  bytes file_data = 2;
+}
