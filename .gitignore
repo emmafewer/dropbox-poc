@@ -1,4 +1,4 @@
-/Downloader.sln
+/DropboxPoc.sln
 # file extensions to ignore
 *.bak
 *.iml
@@ -19,4 +19,4 @@ Server.appsettings.json
 .env
 
 .DS_Store
-/Downloader/Server/Properties/launchSettings.json
+/DropboxPoc/Server/Properties/launchSettings.json
